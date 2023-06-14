@@ -1,6 +1,6 @@
 #welcome message
 print ("Welcome!")
-
+print ("-----------------")
 # Prompt the user
 firstName = input("Enter First Name: ")
 lastName = input("Enter Last Name: ")
@@ -13,5 +13,5 @@ futureAge = age + integer
 nameLength = len(firstName + lastName)
 
 # Message
-print ("Hello, " + firstName + " " + lastName + "! Your name is " + str(nameLength) + " characters long.")
+print ("Hello, " + firstName + " " + lastName[0] + "! Your name is " + str(nameLength) + " characters long.")
 print ("In " + str(integer) + " years, you will be " + str(futureAge) + " years old. Your favorite color is " + favoriteColor.upper() + "!")
